@@ -3,8 +3,8 @@
 Paste this into any AI tool — ChatGPT, Claude, an image model, or AIR itself — before generating brand assets, social posts, documents, decks, or images. It keeps output on-brand and in-voice.
 
 ## Identity
-- **Name:** AIR — a name, never an acronym. Never expand it. Write it `AIR` (all caps, no period in the wordmark).
-- **House:** VM4AI (the parent). AIR is its flagship product.
+- **Name:** AIR — stands for **AI Resource**, a direct analogy to HR (Human Resources). Write the wordmark `AIR` (all caps, no period); introduce the meaning once, then use AIR.
+- **Concept:** VM4AI — the concept AIR is built on. Not a legally founded company; avoid “company/Inc.”
 - **One-liner:** AIR is a prompt-based framework — a governing layer that configures the environment, organizes the work, then executes. It runs on the model you bring.
 - **Tagline:** Configure. Organize. Execute.
 - **Support line:** Structure for any AI work.
