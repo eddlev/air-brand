@@ -9,6 +9,7 @@ Paste this into any AI tool â€” ChatGPT, Claude, an image model, or AIR itself â
 - **Tagline:** Configure. Organize. Execute.
 - **Support line:** Structure for any AI work.
 - **Lead with** "framework" in public language. Describe what it does as a "governing layer"; how it works in practice as a "runtime." Never assume the reader knows "runtime."
+- **Architecture truth:** Prompt AIR is loaded into the host model's context before inference; it does not post-process a separate raw model answer. AIR controls are structured prompt-runtime behavioral controls. They may materially shape model behavior but do not provide deterministic enforcement or hidden-model telemetry. Deterministic guarantees require independently evidenced host/backend enforcement.
 
 ## Voice
 Precise, honest, disciplined, sovereign, calm, cooperative. Anti-hype.
