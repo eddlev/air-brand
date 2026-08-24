@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="github/readme-header.png" alt="AIR by VM4AI — Configure. Organize. Execute." width="100%">
+  <img src="github/readme-header.png" alt="AIR by VM4AI — Focused. Fluid. AIR." width="100%">
 </p>
 
 # AIR by VM4AI — Brand Kit
@@ -8,42 +8,53 @@
 ![Framework](https://img.shields.io/badge/framework-prompt--based-9A8F80?labelColor=1A1613)
 ![Made with AIR](https://img.shields.io/badge/made%20with-AIR-FF5A1F?labelColor=1A1613)
 
-**Configure. Organize. Execute.** — Structure for any AI work.
+**Focused. Fluid. AIR.** — AI work, carried forward.
 
-The complete brand system for **AIR**, the prompt-based framework from VM4AI. Open **`brand-book.html`** for the full reference (strategy, voice, logo, color, type, the AIR model diagrams, and usage rules).
+The complete brand system for **AIR**, the prompt-based framework from VM4AI. The mark, typography, and core palette stay constant; the Brand v2 graphic language expresses three states of the work: focused structure, fluid continuation, and provider-independent AIR.
+
+Open **`brand-book.html`** for the full reference: strategy, voice, logo, light/dark color system, typography, state-transition graphic language, motion, diagrams, and usage rules.
 
 ---
 
 ## Structure
 
-```
+```text
 brand/
-├─ brand-book.html        the full brand book (open in a browser)
+├─ brand-book.html        the full brand book
 ├─ brand-ai-brief.md      paste into any AI for on-brand output
 ├─ USAGE.md               brand mark & stamp usage terms
-├─ logos/                 12 logo SVGs (primary · stacked · wordmark · mono · mark · favicon)
+├─ logos/                 primary · stacked · wordmark · mono · mark · favicon
 ├─ tokens/
-│  ├─ air-tokens.css      design tokens (color · type · light/dark · @font-face)
-│  ├─ tokens.json         the same tokens as JSON
-│  └─ fonts/              self-hosted Space Grotesk + JetBrains Mono (.woff)
-├─ web/                   favicon set · site.webmanifest · og-image (1200×630)
-├─ social/                X · LinkedIn · GitHub avatars, banners, post templates
-├─ made-with-air/         attribution stamp — pill & seal, clean & period, SVG + PNG
-├─ diagrams/              the AIR model diagrams (standalone SVG + PNG)
-├─ templates/             deck (.pptx) · letterhead (.docx) · email signature · cheat-sheet (.pdf)
-└─ github/                README header, divider, section header
+│  ├─ air-tokens.css      color · type · light/dark · @font-face
+│  ├─ tokens.json         matching design-token values + brand metadata
+│  └─ fonts/              Space Grotesk + JetBrains Mono
+├─ web/                   favicon set · site.webmanifest · OG image
+├─ social/                X · LinkedIn · GitHub assets and post templates
+├─ made-with-air/         attribution stamp
+├─ diagrams/              AIR model and Brand v2 state diagrams
+├─ templates/             deck · letterhead · email signature · cheat-sheet
+└─ github/                README header · divider · section header
 ```
+
+## Brand center
+
+- **Brand promise:** AI work, carried forward.
+- **Signature:** Focused. Fluid. AIR.
+- **Focused:** one active task at a time.
+- **Fluid:** continue without reconstructing the project.
+- **AIR:** the project is not confined to one provider.
 
 ## Quick start
 
-- **Colors & type** — drop `tokens/air-tokens.css` into any page; it ships light/dark theming and `@font-face`.
-- **Logos** — use `logos/air-logo-primary-dark.svg` on dark, `…-light.svg` on light; `logos/air-mark.svg` for square/avatar use.
-- **Fonts** — self-host from `tokens/fonts/`, or load Space Grotesk + JetBrains Mono from Google Fonts.
-- **Generating with AI** — paste `brand-ai-brief.md` into any AI tool before producing posts, docs, decks, or images.
+- **Colors & type** — use `tokens/air-tokens.css`; light and dark are equal brand expressions. Accents stay constant while neutrals invert.
+- **Logos** — use the supplied primary light/dark lockups and the unchanged dot-in-frame mark.
+- **Fonts** — Space Grotesk for display/body; JetBrains Mono for technical detail.
+- **Generating with AI** — paste `brand-ai-brief.md` into the tool before producing AIR material.
+- **Motion** — state transition only, never decoration; always provide a reduced-motion/static equivalent.
 
 ## Made with AIR
 
-If your project is built with AIR, add the badge:
+If your project is genuinely built with AIR, add the badge:
 
 ```markdown
 [![Made with AIR](made-with-air/made-with-air.svg)](https://vm4ai.com)
@@ -53,6 +64,6 @@ If your project is built with AIR, add the badge:
 
 ## License
 
-The framework code is licensed under **Apache-2.0**. The brand itself — the **AIR** and **VM4AI** names and the dot-in-frame mark — is **not** granted by that license; please don't use the marks to imply endorsement or affiliation. The "Made with AIR" stamp is welcome on genuine AIR-built projects.
+The framework code is licensed under **Apache-2.0**. The brand itself — the **AIR** and **VM4AI** names and the dot-in-frame mark — is **not** granted by that license. Do not use the marks to imply endorsement or affiliation. The "Made with AIR" stamp is welcome on genuine AIR-built projects.
 
 — vm4ai.com
