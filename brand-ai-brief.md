@@ -37,6 +37,8 @@ AIR is designed to travel with the work rather than requiring the work to live i
 
 Creative state: **gas** — open composition, negative space, multiple possible external containers, AIR structure coherent between them.
 
+> **Internal design note:** solid / liquid / gas are creative scaffolding for the brand system. Do not put these phase terms on standard public-facing assets unless the material is explicitly explaining the brand design system.
+
 ## Messaging hierarchy
 
 Default order:
@@ -148,24 +150,43 @@ Do not add a new typeface to simulate fluidity or airiness.
 
 **One mark. Three states. One identity.**
 
-### Focused / solid
-Use stable brass frames, tighter alignment, denser grouping, clear hierarchy, and one ember focal point.
+The detailed three-state visualization is a fixed master component. Scale the complete component uniformly; never stretch, compress, or independently distort its three state panels.
 
-### Fluid / liquid
-Show continuity between containers using readable paths and repeated AIR state. Use movement/connection, not literal water imagery.
+### Focused
+Show a horizontal task sequence. The active task is centered, larger, and fully emphasized. Neighboring inactive tasks recede with lower opacity. Supporting line: **Focus on one task.**
 
-### AIR / gas
-Use open negative space and multiple subtle external containers or provider environments. AIR structure stays coherent while outer containers become secondary.
+Opacity means inactive/non-current task in this state.
 
-Avoid literal science-class imagery, decorative particles, stock-AI clichés, droplets, waves, clouds, smoke, or color-coded phases.
+### Fluid
+Show the **Current Session** as the primary full-emphasis container. **New Session** and **New Platform** are equal alternative continuation destinations and should share the same secondary styling: reduced emphasis and/or dashed outer container. They are not a chronological left-to-right sequence.
+
+Use simple branch/continuation connectors from Current Session toward the alternatives. Do not use decorative squiggles. Supporting line: **same project state continues**.
+
+Opacity means secondary continuation option in this state, not past/future time.
+
+### AIR
+Zoom out from task/session level to the AIR project level. Repeated AIR project marks represent the same project persisting across work containers. Show progression left to right with increasing opacity: earlier project state most transparent, intermediate state less transparent, current/latest state fully emphasized. Use simple directional arrows.
+
+Supporting line: **same AIR project persists**. Public subline: **Stable across sessions and platforms.**
+
+Opacity means temporal/project progression in this state.
+
+### Background and readability
+
+- The subtle square-outline grid is the default **expressive AIR background** for heroes, banners, social assets, diagrams, and major brand callouts.
+- Plain Foundation/Paper remains the default for dense reading, documentation, and utility surfaces.
+- Public-facing assets should not carry the words solid / liquid / gas as explanatory captions.
+- Internal labels in explanatory diagrams must remain readable at ordinary viewing size. If they require browser or image zoom to read, increase module scale, type size, and/or contrast.
+- Use the canonical AIR mark geometry and true geometric centering.
+- Decorative particles, droplets, waves, clouds, vapor, smoke, and stock-AI visual clichés are off-brand.
 
 ## Motion
 
 Motion represents state transition, never decoration.
 
-- Focused: settle, align, lock.
-- Fluid: carry state along a readable path between containers.
-- AIR: reduce emphasis on the outer container while AIR structure remains coherent.
+- Focused: settle the active task into the center while inactive neighbors recede.
+- Fluid: carry project state from Current Session toward either New Session or New Platform using clean, readable connectors.
+- AIR: show the project persisting over time/containers, with earlier states receding and the current state resolving to full emphasis.
 - Keep ordinary interaction motion short and purposeful, generally `0.2–0.4s`.
 - Respect `prefers-reduced-motion`.
 - Every animated concept must have a static equivalent with the same meaning.
