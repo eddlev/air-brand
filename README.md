@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="github/readme-header-v2-light.svg?v=20260824-r2">
-    <img src="github/readme-header-v2-dark.svg?v=20260824-r2" alt="AIR by VM4AI — Focused. Fluid. AIR." width="100%">
+    <source media="(prefers-color-scheme: light)" srcset="github/readme-header-v2-light.svg?v=20260824-r3">
+    <img src="github/readme-header-v2-dark.svg?v=20260824-r3" alt="AIR by VM4AI — Focused. Fluid. AIR." width="100%">
   </picture>
 </p>
 
