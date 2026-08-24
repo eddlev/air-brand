@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="github/readme-header.png" alt="AIR by VM4AI — Focused. Fluid. AIR." width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="github/readme-header-v2-light.svg">
+    <img src="github/readme-header-v2-dark.svg" alt="AIR by VM4AI — Focused. Fluid. AIR." width="100%">
+  </picture>
 </p>
 
 # AIR by VM4AI — Brand Kit
@@ -43,6 +46,13 @@ brand/
 - **Focused:** one active task at a time.
 - **Fluid:** continue without reconstructing the project.
 - **AIR:** the project is not confined to one provider.
+
+## Canonical state diagram
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="diagrams/air-three-states-light.svg">
+  <img src="diagrams/air-three-states-dark.svg" alt="Focused, Fluid, and AIR visual system" width="100%">
+</picture>
 
 ## Quick start
 
