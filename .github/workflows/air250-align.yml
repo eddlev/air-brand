@@ -1,0 +1,48 @@
+name: Align brand claims to AIR 2.5.0 preview
+
+on:
+  push:
+    branches: [air250-preview-align]
+    paths: [.air250-align-ready]
+
+permissions:
+  contents: write
+
+jobs:
+  align:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: air250-preview-align
+      - name: Bound continuity claims
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          old='Stable across sessions and platforms.'
+          new='Designed for continuity across sessions and compatible platforms.'
+          changed=[]
+          for p in [Path('brand-ai-brief.md'), Path('brand-book.html'), Path('README.md')]:
+              s=p.read_text()
+              if old in s:
+                  p.write_text(s.replace(old,new))
+                  changed.append(str(p))
+          if not changed:
+              raise SystemExit('expected continuity phrase not found in brand sources')
+          Path('AIR_2.5.0_PREVIEW_ALIGNMENT.md').write_text('# AIR 2.5.0 preview brand alignment\n\nBrand language remains version-agnostic. Continuity claims are explicitly bounded to compatible platforms, matching the current AIR evidence boundary.\n')
+          print('changed:', ', '.join(changed))
+          PY
+          ! grep -R -F 'Stable across sessions and platforms.' README.md brand-ai-brief.md brand-book.html
+          grep -R -q -F 'Designed for continuity across sessions and compatible platforms.' brand-ai-brief.md brand-book.html README.md
+      - name: Commit alignment
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'AIR Deployment Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add README.md brand-ai-brief.md brand-book.html AIR_2.5.0_PREVIEW_ALIGNMENT.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'Align AIR brand claims to preview evidence boundary'
+          git push origin HEAD:air250-preview-align
