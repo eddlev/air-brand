@@ -167,7 +167,7 @@ Opacity means secondary continuation option in this state, not past/future time.
 ### AIR
 Zoom out from task/session level to the AIR project level. Repeated AIR project marks represent the same project persisting across work containers. Show progression left to right with increasing opacity: earlier project state most transparent, intermediate state less transparent, current/latest state fully emphasized. Use simple directional arrows.
 
-Supporting line: **same AIR project persists**. Public subline: **Stable across sessions and platforms.**
+Supporting line: **same AIR project persists**. Public subline: **Designed for continuity across sessions and compatible platforms.**
 
 Opacity means temporal/project progression in this state.
 
