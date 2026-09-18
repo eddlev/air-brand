@@ -9,7 +9,7 @@ Paste this into any AI tool — ChatGPT, Claude, an image model, or AIR itself �
 - **Brand promise:** **AI work, carried forward.**
 - **Signature:** **Focused. Fluid. AIR.**
 - **Internal creative doctrine:** **The container can change. The work keeps its state.**
-- **One-liner:** AIR is a prompt-based framework for structured AI work. It centers one active task and uses structured handoff state to continue work across sessions and compatible platforms without reconstructing the project.
+- **One-liner:** AIR is a prompt-based project-governance and continuity framework for sustained AI work. It centers one active task and uses structured handoff state to continue work across sessions and compatible platforms without reconstructing the project.
 - **Lead with** `framework` in public language. Describe what AIR does conceptually as a `governing layer`; describe how it operates in practice as a `runtime`. Never assume the reader knows `runtime`.
 
 ## Positioning
@@ -57,6 +57,40 @@ Approved supporting lines:
 - The next session shouldn't be a restart.
 
 `Configure. Organize. Execute.` may be used as a deeper runtime/process description, but it is no longer the primary tagline.
+
+## Public-language translation rule
+
+Public-facing AIR material must be simple enough for a general reader without weakening technical truth.
+
+Explain the reader's problem, outcome, and practical value before AIR's internal machinery. Use the plain-language meaning first; introduce the canonical technical term only when it helps the reader use, troubleshoot, validate, or audit AIR.
+
+Use progressive disclosure: **plain explanation → practical mechanism → canonical technical detail**.
+
+Internal schema identifiers, contract IDs, package designations, field names, and control-plane terminology belong in technical reference unless the reader directly needs them.
+
+Simplification may change wording and depth. It must not change claim strength, qualifications, scope, uncertainty, evidence requirements, approval boundaries, or product meaning.
+
+Define unfamiliar AIR terms when they first become necessary. Analogies are allowed, but qualify them when a reader could mistake the analogy for literal technical behavior.
+
+In comparisons with MCP, agents, frameworks, or other technologies, explain the different **job or layer** first. Do not imply exclusive capability unless evidence supports exclusivity.
+
+Public copy should answer **“What does this help me do?”** before **“How does AIR represent it internally?”**
+
+### Category and comparison discipline
+
+Keep these dimensions separate:
+
+- **Delivery mechanism:** prompt-based.
+- **Product category:** project-governance and continuity framework.
+- **Interaction model:** cooperative human-AI work.
+- **Execution mode:** may include ordinary model work, tools, MCP, agents, automation, or combinations of them.
+- **Authority model:** the human retains project direction and material approval.
+
+Do not contrast `prompt-based` with `automation` or `cooperation`; they describe different properties.
+
+Retire **“AIR is not an automation. It is a cooperation.”** as canonical copy. AIR is not itself an autonomous agent or automation engine, but it may govern work that uses agents or automation.
+
+Avoid **“turns the model into a cooperative teammate”** as canonical category language. When describing cooperation, explain the human-AI working relationship and authority split directly.
 
 ## Terminology
 

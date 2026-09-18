@@ -80,6 +80,30 @@ button{font:inherit;background:transparent;color:var(--text);border:1px solid va
 <li>cooperative</li>
 </ul>
 <p>AIR should sound confident because the structure is clear, not because the language is inflated.</p>
+<h3>Public-language translation rule</h3>
+<p>Public-facing AIR material must be simple enough for a general reader without weakening technical truth.</p>
+<p>Explain the reader's problem, outcome, and practical value before AIR's internal machinery. Use the plain-language meaning first; introduce the canonical technical term only when it helps the reader use, troubleshoot, validate, or audit AIR.</p>
+<p><strong>Progressive disclosure:</strong> plain explanation → practical mechanism → canonical technical detail.</p>
+<ul>
+<li>Keep internal schema identifiers, contract IDs, package designations, field names, and control-plane terminology in technical reference unless the reader directly needs them.</li>
+<li>Simplification may change wording and depth. It must not change claim strength, qualifications, scope, uncertainty, evidence requirements, approval boundaries, or product meaning.</li>
+<li>Define unfamiliar AIR terms when they first become necessary.</li>
+<li>Analogies are welcome when useful, but qualify them if a reader could mistake the analogy for literal technical behavior.</li>
+<li>When comparing AIR with MCP, agents, frameworks, or other technologies, explain the different job or layer first. Do not imply exclusive capability unless evidence supports exclusivity.</li>
+</ul>
+<p>Public copy should answer <strong>“What does this help me do?”</strong> before <strong>“How does AIR represent it internally?”</strong></p>
+<h3>Category and comparison discipline</h3>
+<p>Keep AIR's delivery mechanism, product category, interaction model, execution mode, and authority model separate.</p>
+<ul>
+<li><strong>Delivery mechanism:</strong> prompt-based.</li>
+<li><strong>Product category:</strong> project-governance and continuity framework.</li>
+<li><strong>Interaction model:</strong> cooperative human-AI work.</li>
+<li><strong>Execution mode:</strong> may include ordinary model work, tools, MCP, agents, automation, or combinations of them.</li>
+<li><strong>Authority model:</strong> the human retains project direction and material approval.</li>
+</ul>
+<p>Do not contrast <strong>prompt-based</strong> with <strong>automation</strong> or <strong>cooperation</strong>; they describe different properties.</p>
+<p>Retire <strong>“AIR is not an automation. It is a cooperation.”</strong> as canonical copy. AIR is not itself an autonomous agent or automation engine, but it may govern work that uses agents or automation.</p>
+<p>Avoid <strong>“turns the model into a cooperative teammate”</strong> as canonical category language. Describe the human-AI working relationship and authority split directly.</p>
 <h3>Lexicon</h3>
 <p><strong>Prefer</strong></p>
 <p>session · project state · active task · continue · handoff · platform · provider · compatible · supported · framework · governing layer · runtime · evidence · blocker · benchmark · approval · surface uncertainty · fail-closed</p>
@@ -313,6 +337,7 @@ The active task / live point.</p>
 <h2>11 — Content &amp; social</h2>
 <h3>Lead with the outcome.</h3>
 <p>AIR content should make the value understandable before explaining the machinery.</p>
+<p>Use progressive disclosure: <strong>plain explanation → practical mechanism → canonical technical detail</strong>. Technical names belong where they help the reader act, verify, troubleshoot, or go deeper — not where they merely prove the system has internal terminology.</p>
 <p>Default narrative:</p>
 <p><strong>AI work, carried forward.</strong><br />
 <strong>Focused. Fluid. AIR.</strong></p>

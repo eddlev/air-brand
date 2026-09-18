@@ -46,6 +46,9 @@ brand/
 - **Focused:** one active task at a time.
 - **Fluid:** continue without reconstructing the project.
 - **AIR:** the project is not confined to one provider.
+- **Public-language rule:** explain the reader value first, then the practical mechanism, then canonical technical detail only where it helps the reader act, verify, troubleshoot, or go deeper.
+- **Canonical category:** AIR is a prompt-based project-governance and continuity framework for sustained AI work.
+- **Language discipline:** keep delivery mechanism, product category, interaction model, execution mode, and authority model distinct.
 
 ## Canonical state diagram
 
