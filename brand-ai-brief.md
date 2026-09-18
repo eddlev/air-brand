@@ -58,6 +58,24 @@ Approved supporting lines:
 
 `Configure. Organize. Execute.` may be used as a deeper runtime/process description, but it is no longer the primary tagline.
 
+## Public-language translation rule
+
+Public-facing AIR material must be simple enough for a general reader without weakening technical truth.
+
+Explain the reader's problem, outcome, and practical value before AIR's internal machinery. Use the plain-language meaning first; introduce the canonical technical term only when it helps the reader use, troubleshoot, validate, or audit AIR.
+
+Use progressive disclosure: **plain explanation → practical mechanism → canonical technical detail**.
+
+Internal schema identifiers, contract IDs, package designations, field names, and control-plane terminology belong in technical reference unless the reader directly needs them.
+
+Simplification may change wording and depth. It must not change claim strength, qualifications, scope, uncertainty, evidence requirements, approval boundaries, or product meaning.
+
+Define unfamiliar AIR terms when they first become necessary. Analogies are allowed, but qualify them when a reader could mistake the analogy for literal technical behavior.
+
+In comparisons with MCP, agents, frameworks, or other technologies, explain the different **job or layer** first. Do not imply exclusive capability unless evidence supports exclusivity.
+
+Public copy should answer **“What does this help me do?”** before **“How does AIR represent it internally?”**
+
 ## Terminology
 
 Prefer:
