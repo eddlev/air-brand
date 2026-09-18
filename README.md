@@ -46,6 +46,7 @@ brand/
 - **Focused:** one active task at a time.
 - **Fluid:** continue without reconstructing the project.
 - **AIR:** the project is not confined to one provider.
+- **Public-language rule:** explain the reader value first, then the practical mechanism, then canonical technical detail only where it helps the reader act, verify, troubleshoot, or go deeper.
 
 ## Canonical state diagram
 
